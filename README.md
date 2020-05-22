@@ -418,6 +418,7 @@ This project is not sponsored.
 ## License
 
 Copyright 2018-2020, NDP LLC
+
 Copyright 2015-2017, Noah Kantrowitz
 
 Licensed under the Apache License, Version 2.0 (the "License");

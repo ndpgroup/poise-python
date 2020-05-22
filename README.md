@@ -1,14 +1,19 @@
-# Poise-Python Cookbook
+# Poise-Python Cookbook (NDP Fork)
 
-[![Build Status](https://img.shields.io/travis/poise/poise-python.svg)](https://travis-ci.org/poise/poise-python)
-[![Gem Version](https://img.shields.io/gem/v/poise-python.svg)](https://rubygems.org/gems/poise-python)
-[![Cookbook Version](https://img.shields.io/cookbook/v/poise-python.svg)](https://supermarket.chef.io/cookbooks/poise-python)
-[![Coverage](https://img.shields.io/codecov/c/github/poise/poise-python.svg)](https://codecov.io/github/poise/poise-python)
-[![Gemnasium](https://img.shields.io/gemnasium/poise/poise-python.svg)](https://gemnasium.com/poise/poise-python)
 [![License](https://img.shields.io/badge/license-Apache_2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
 A [Chef](https://www.chef.io/) cookbook to provide a unified interface for
 installing Python, managing Python packages, and creating virtualenvs.
+
+## Fork Status
+
+This is a fork of the "poise" version. PR's will be reviewied and accepted on
+this fork. Publishing back to supermarket is not planned, as we do not have
+access to the "poise-python" package. Maybe we will rename this later so we
+can publish to supermarket.
+
+This fork is mostly focused on Red Hat/CentOS Linux, and in particular,
+supporting both base and SCL versions of python.
 
 ## Quick Start
 
@@ -56,11 +61,12 @@ end
 This cookbook can install at least Python 2.7, Python 3, and PyPy on all
 supported platforms (Debian, Ubuntu, RHEL, CentOS, Fedora).
 
-### Windows Support
+### Windows Support (Not Maintained)
 
-The latest version of `poise-python` includes basic support for managing Python
-on Windows. This currently doesn't support Python 3.5, but everything should be
-working. Consider this support tested but experimental at this time.
+This cookbook includes basic support for managing Python on Windows. This
+does not support Python 3.5. Everything was working at some point, but there
+are no active CI pipelines to keep this current. Consider this untested and
+experimental at this time.
 
 ## Requirements
 
@@ -432,12 +438,11 @@ unchanged except for the `interpreter` property now being `python` and the
 
 ## Sponsors
 
-Development sponsored by [Bloomberg](http://www.bloomberg.com/company/technology/).
-
-The Poise test server infrastructure is sponsored by [Rackspace](https://rackspace.com/).
+This project is not sponsored.
 
 ## License
 
+Copyright 2018-2020, NDP LLC
 Copyright 2015-2017, Noah Kantrowitz
 
 Licensed under the Apache License, Version 2.0 (the "License");

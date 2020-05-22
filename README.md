@@ -7,7 +7,7 @@ installing Python, managing Python packages, and creating virtualenvs.
 
 ## Fork Status
 
-This is a fork of the "poise" version. PR's will be reviewied and accepted on
+This is a fork of the "poise" version. PR's will be reviewed and accepted on
 this fork. Publishing back to supermarket is not planned, as we do not have
 access to the "poise-python" package. Maybe we will rename this later so we
 can publish to supermarket.
